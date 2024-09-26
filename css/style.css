@@ -1,4 +1,57 @@
-h1{
-  border-color: #d3e644;
-  border-style: dashed;
+* {
+  box-sizing: border-box;
 }
+
+html {
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #ccc;
+}
+
+article {
+  /*Background fallback*/
+  background-image: url("/img/top.png");
+  background-repeat: no-repeat;
+  background-position: top;
+
+  background: 
+    linear-gradient(rgba(0, 0, 0, 0.27), rgba(255, 255, 255, 0.001)) no-repeat top / 100% 18%,
+    linear-gradient(rgba(255, 255, 255, 0.001), rgba(0, 0, 0, 0.27)) no-repeat bottom / 100% 18%,
+    url("/img/top.png") no-repeat top,
+    url("/img/bottom.png") no-repeat bottom
+    white;
+  width: 210mm;
+  height: 297mm;
+  margin: 20px auto;
+  position: relative;
+
+  border-top: solid rgba(192, 1, 0, 255) 1mm;
+  border-bottom: solid rgb(132, 188, 67) 1mm;
+}
+
+address {
+  position: absolute;
+  bottom: 8mm;
+  right: 20mm;
+}
+
+h1 {
+  background: url("/img/logo.png");
+
+  position: absolute;
+  top: 12mm;
+  left: 20mm;
+  width: 128px;
+  height: 128px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  text-align: center;
+  padding: 44px 0;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+
+/* Your CSS below here */
