@@ -18,8 +18,8 @@ article {
   background-position: top;
 
   background: 
-    linear-gradient(rgba(0, 0, 0, 0.27), rgba(255, 255, 255, 0.001)) no-repeat top / 100% 18%,
-    linear-gradient(rgba(255, 255, 255, 0.001), rgba(0, 0, 0, 0.27)) no-repeat bottom / 100% 18%,
+    linear-gradient(rgba(0, 0, 0, 0.35), rgba(255, 255, 255, 0.001)) no-repeat top / 100% 15%,
+    linear-gradient(rgba(255, 255, 255, 0.001), rgba(0, 0, 0, 0.35)) no-repeat bottom / 100% 15%,
     url("/img/top.png") no-repeat top,
     url("/img/bottom.png") no-repeat bottom
     white;
@@ -31,6 +31,8 @@ article {
 
   border-top: solid rgba(192, 1, 0, 255) 1mm;
   border-bottom: solid rgb(132, 188, 67) 1mm;
+
+  font-family: DauphinPlain;
 }
 
 address {
@@ -57,10 +59,13 @@ h1 {
   text-shadow: 1px 1px 1px black;
 }
 
+/* Your CSS below here */
+
 .article-content{
   position: absolute;
-  top: 80mm;
+  top: 70mm;
   left: 20mm;
+  margin-top: 0;
   margin: 11mm;
   width: 150mm;
 
@@ -71,4 +76,59 @@ h1 {
 
 }
 
-/* Your CSS below here */
+.article-content p {
+  margin-top: 0;
+}
+
+h2{
+  position: absolute;
+  top: 45mm;
+  width: 70mm;
+  left: 75mm;
+  font-size: 2.5rem;
+}
+
+.selection-content{
+  position:absolute;
+  width: 100mm;
+  top: 165mm;
+  margin:57mm;
+
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+
+  font-family: DauphinPlain;
+}
+
+.selection-content p{
+  position: relative;
+  left: 28mm;
+  text-decoration: underline;
+}
+
+.selection-option{
+  width: 50mm;
+  margin-left: 35mm;
+  margin-bottom: 2mm;
+}
+
+.selection-option label{
+  position: relative;
+  top: -.73mm;
+}
+
+button{
+  width: 20mm;
+  margin: auto;
+  margin-top: 3mm;
+  border: none;
+  background-color: lightgray;
+  font-family: DauphinPlain;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+button:hover{
+  background-color: rgb(145, 145, 145);
+}

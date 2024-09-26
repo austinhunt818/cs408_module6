@@ -13,3 +13,5 @@ To run this website, you can right click on the index.html file and click the 's
 
 * https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Backgrounds_and_borders
 * https://developer.mozilla.org/en-US/docs/Web/CSS/filter 
+* https://stackoverflow.com/questions/15839169/how-to-get-the-value-of-a-selected-radio-button 
+* https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Cascade_and_inheritance 
