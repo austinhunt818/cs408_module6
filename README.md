@@ -3,7 +3,7 @@
 
 ## Overview
 
-This project contains a fake birdwatching page that I styled according to the specifications.
+This project contains a letter layout with some fancier visual features.
 
 ## Running
 
