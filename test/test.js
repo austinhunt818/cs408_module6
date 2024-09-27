@@ -1,11 +1,9 @@
-import {sayHello} from '../js/main.js';
 
-QUnit.module('hello', function() {
+QUnit.module('Lab5', function() {
 
-    QUnit.test('make sure the hello function says hello', function(assert) {
-        var result = sayHello();
-        assert.equal(result, 'hello');
+    QUnit.test('make sure the alertSelection function alerts the right value', function(assert) {
+        var result = document.querySelector('input[name="selection"]:checked').value;
+        assert.equal(result, 'accumsan');
     });
-
 
 });

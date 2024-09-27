@@ -1,4 +1,8 @@
 
-document.querySelector("button").addEventListener("click", function() {
+function alertSelection() {
    alert(document.querySelector('input[name="selection"]:checked').value);
-});
+}
+
+document.querySelector("button").addEventListener("click", alertSelection);
+
+

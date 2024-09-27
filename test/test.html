@@ -5,7 +5,16 @@
 <link rel="stylesheet" href="https://code.jquery.com/qunit/qunit-2.21.0.css">
 <body>
   <div id="qunit"></div>
-  <div id="qunit-fixture"></div>
+  <div id="qunit-fixture">
+    <div class="selection-option">
+      <input type="radio" id="pellentesque" value="pellentesque" name="selection">
+      <label for="pellentesque">pellentesque</label>
+    </div>
+    <div class="selection-option">
+      <input type="radio" id="accumsan" value="accumsan" name="selection" checked>
+      <label for="accumsan">accumsan</label>
+    </div>
+  </div>
   <script src="https://code.jquery.com/qunit/qunit-2.21.0.js"></script>
   <script type="module" src="test.js"></script>
 </body>
